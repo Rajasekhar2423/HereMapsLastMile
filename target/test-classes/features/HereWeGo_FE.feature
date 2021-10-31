@@ -1,5 +1,5 @@
 @HereWeGo_2_HappyPaths
-Feature: Here WeGo Deliver
+Feature: Here WeGo FE Delivery Route Plan
 
   @HereWeGoFEPath1
   Scenario Outline: Here WeGO FE Happy Path ONe
