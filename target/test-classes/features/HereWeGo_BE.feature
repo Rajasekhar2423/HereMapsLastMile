@@ -1,8 +1,8 @@
 @HereWeGo_BE
-Feature: Here WeGo FE Delivery Route Plan
+Feature: Here WeGo Api Testing BE
 
-  Scenario Outline: Here WeGO BE Happy Path One
-    Given Geocode request by send the Address <Address> and apiKey <apiKkey> and status code <statuscode>
+  Scenario Outline: Here WeGO Api Testing BE
+    Given Geocode request by sending the Address <Address> and apiKey <apiKkey> and status code <statuscode>
 
     Examples:
       | Address                 | apiKkey                                     | statuscode |

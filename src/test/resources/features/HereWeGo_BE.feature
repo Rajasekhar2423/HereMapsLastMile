@@ -2,7 +2,7 @@
 Feature: Here WeGo Api Testing BE
 
   Scenario Outline: Here WeGO Api Testing BE
-    Given Geocode request by send the Address <Address> and apiKey <apiKkey> and status code <statuscode>
+    Given Geocode request by sending the Address <Address> and apiKey <apiKkey> and status code <statuscode>
 
     Examples:
       | Address                 | apiKkey                                     | statuscode |

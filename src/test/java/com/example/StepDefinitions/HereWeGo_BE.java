@@ -10,7 +10,7 @@ public class HereWeGo_BE {
    HereBEMethods hereBEMethods= new HereBEMethods();
 
 
-    @Given("^Geocode request by send the Address (.*) and apiKey (.*) and status code (.*)$")
+    @Given("^Geocode request by sending the Address (.*) and apiKey (.*) and status code (.*)$")
     public void GetApi(String Address,String apiKey,int Statuscode) throws IOException {
         hereBEMethods.API_Query(Address,apiKey,Statuscode);
 
