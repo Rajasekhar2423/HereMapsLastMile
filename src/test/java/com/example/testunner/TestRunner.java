@@ -10,7 +10,7 @@ import org.testng.annotations.BeforeTest;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = {"src/test/resources/features"},
-        tags = "@HereWeGo_BE",
+        tags = "@HereWeGoFEPath2",
         glue = {"com.example.StepDefinitions"},
         plugin = {"pretty",
         "html:target/cucumber-reports/cucumber.html",
@@ -23,7 +23,7 @@ public class TestRunner  {
         public static void beforeclass(){
                 System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
         }
-        //update line 13 for FE with @HereWeGo_2_HappyPaths
+        //update line 13 for FE with @HereWeGo_2_HappyPaths  @HereWeGo_BE
         //@AfterClass
 
 

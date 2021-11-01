@@ -104,7 +104,7 @@ public class HereFEMethods {
         Thread.sleep(2000);
        // browserfile_element_tab.click();
         String CsvFilePath="C:\\Users\\rajasekhar.madireddy\\IdeaProjects\\HereMapsLastMile\\src\\test\\resources\\CSVFILES\\here-wego-deliver-three-paths.csv";
-        browserfile_element_tab.sendKeys("CsvFilePath");
+        browserfile_element_tab.sendKeys(CsvFilePath);
        //its accepting the csv file from the absolute only .. please edit it when you download this project
         // browserfile_element_tab.sendKeys("src/test/resources/CSVFILES/here-wego-deliver-three-paths.csv");
 
