@@ -2,7 +2,7 @@
 Feature: Here WeGo FE Delivery Route Plan
 
   @HereWeGoFEPath1
-  Scenario Outline: Here WeGO FE Happy Path ONe
+  Scenario Outline: Here WeGO FE Happy Path One
     Given Launch Chrome and Navigate to Here WeGo Home Page
     Then Complete Fleet and Depot Section
     Then Add Orders Using personName <name> and Address <Address> and Demand <Demand>
