@@ -1,13 +1,14 @@
 package com.example.StepDefinitions;
 
 import com.example.HereFEMethods;
+import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 
 
 public class HereWeGo_FE {
 
     HereFEMethods hereFEMethods= new HereFEMethods();
-    @Then("^Launch Chrome and Navigate to Here WeGo Home Page")
+    @Given("^Launch Chrome and Navigate to Here WeGo Home Page")
     public void Navigate_To_HereWeGo_HomePage() throws InterruptedException {
         hereFEMethods.Navigate_To_Here_We_Go();
     }

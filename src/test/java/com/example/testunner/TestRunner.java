@@ -10,7 +10,7 @@ import org.testng.annotations.BeforeTest;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = {"src/test/resources/features"},
-        tags = "@HereWeGo_2_HappyPaths",
+        tags = "@HereWeGo_BE",
         glue = {"com.example.StepDefinitions"},
         plugin = {"pretty",
         "html:target/cucumber-reports/cucumber.html",
