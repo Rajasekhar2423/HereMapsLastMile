@@ -9,6 +9,8 @@ Click on + icon and select Junit and give appropriate name complete the necessar
 **How to Run FE Test Scenarios**
 3.	Go to Test Runner class and give proper tag(@HereWeGO_2_HappyPaths is to run both the test scenarios, we can also run one by one
 Example: line 13: where tags=”@HereWeGo_2_HappyPaths” )
+**Update CSV file path**
+Update the String named CsvFilePath in the AddScv_File method(line 106 in HereFEMethoda.java)
 
 **How to Run FE Test Scenarios**
 3.	Go to Test Runner class and give proper tag(@HereWeGo_BE
