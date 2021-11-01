@@ -24,7 +24,7 @@ public class HereBEMethods {
         //.log().all()
         JsonPath js1 = new JsonPath(response);
         String coordinates=js1.getString("items.position");
-        System.out.println(Address+" Coordinates are : "+coordinates);
+        System.out.println("Address : "+Address+" Coordinates are : "+coordinates);
 
 
      }
