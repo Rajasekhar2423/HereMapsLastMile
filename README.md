@@ -17,3 +17,7 @@ Update the String named CsvFilePath in the AddScv_File method(line 106 in HereFE
 Example: line 13: where tags=”@HereWeGo_BE” )
 
 
+
+
+Or give all the tags by seperating them with or and execute it.
+for the results open the cucumber.html page (target/cucumber-reports)
